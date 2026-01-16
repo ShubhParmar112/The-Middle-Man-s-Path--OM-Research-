@@ -1,0 +1,7 @@
+Transportation Problem Solver using Python, combining concepts from Operations Management with a simple graphical user interface (GUI). The project focuses on optimizing the allocation of goods from multiple supply sources to multiple demand destinations, either by minimizing total transportation cost or maximizing overall profit, based on user selection.
+
+The core of the project is built using Tkinter for GUI development, along with NumPy and Pandas for numerical computation and data handling. The interface allows users to dynamically specify the number of supply points and demand points, input supply and demand constraints, and enter the corresponding cost or profit matrix. Users can choose between minimization and maximization modes through radio buttons, making the tool flexible for different optimization scenarios.
+
+Once inputs are provided, the system processes the data and applies transportation logic to compute an optimal feasible solution that satisfies all constraints. Error handling is incorporated using dialog boxes to ensure valid inputs and prevent inconsistent supply–demand configurations.
+
+Overall, this project acts as a decision-support tool for logistics and supply chain optimization, demonstrating how classical operations research problems can be transformed into interactive, user-friendly applications. It bridges theoretical optimization concepts with practical implementation, making it suitable for academic learning and real-world problem visualization.
